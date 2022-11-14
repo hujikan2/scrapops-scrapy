@@ -36,6 +36,6 @@ process = CrawlerProcess(settings={
     },
 })
 scheduler = TwistedScheduler()
-scheduler.add_job(process.crawl, 'interval', args=[RateSpider], hours=0, minutes=0, seconds=5)
+scheduler.add_job(process.crawl, 'interval', args=[RateSpider], hours=0, minutes=5, seconds=0)
 scheduler.start()
 process.start(False)

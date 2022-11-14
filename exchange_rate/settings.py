@@ -13,7 +13,7 @@ SPIDER_MODULES = ['exchange_rate.spiders']
 NEWSPIDER_MODULE = 'exchange_rate.spiders'
 
 # Add Your ScrapeOps API Key
-SCRAPEOPS_API_KEY = 'YOUR_API_KEY'
+#SCRAPEOPS_API_KEY = 'YOUR_API_KEY'
 
 # Add In The ScrapeOps Extension
 #EXTENSIONS = {
